@@ -36,3 +36,4 @@ A tecnologia deve servir ao negócio. Para entender os requisitos, regras e o pr
 
 ---
 *Projeto desenvolvido para consolidar conhecimentos avançados em Engenharia e Análise de Dados.*
+*Agradecimento especial a Jornada de Dados - Luciano Vasconcelos.*
