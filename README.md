@@ -31,8 +31,8 @@ A organização do projeto reflete a separação de responsabilidades entre infr
 
 ## 💼 Visão de Negócio (PRDs)
 A tecnologia deve servir ao negócio. Para entender os requisitos, regras e o problema que este pipeline resolve, consulte nossos Product Requirements Documents (PRDs):
-* [📄 PRD - Arquitetura Medalhão (dbt)](docs/prd_dbt_medalhao.md)
-* [📄 PRD - Dashboard de Vendas](docs/prd_dashboard_vendas.md)
+* [📄 PRD - Arquitetura Medalhão (dbt)](dbt_transformations/prd_dbt_medalhao.md)
+* [📄 PRD - Dashboard de Vendas](dashboard/prd_dashboard.md)
 
 ---
 *Projeto desenvolvido para consolidar conhecimentos avançados em Engenharia e Análise de Dados.*
