@@ -27,7 +27,7 @@ A organização do projeto reflete a separação de responsabilidades entre infr
 * `/scripts/` - Scripts Python de extração/ingestão e arquivos SQL de configuração do banco.
 * `/dbt_transformations/` - Todo o projeto dbt, contendo a modelagem das camadas Bronze, Silver e Gold.
 * `/dashboard/` - Código-fonte do aplicativo de visualização final (`app.py`).
-* `/data/` - Arquivos de origem e base de dados bruta.
+
 
 ## 💼 Visão de Negócio (PRDs)
 A tecnologia deve servir ao negócio. Para entender os requisitos, regras e o problema que este pipeline resolve, consulte nossos Product Requirements Documents (PRDs):
