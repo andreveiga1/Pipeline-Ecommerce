@@ -166,9 +166,16 @@ hr { border-color: rgba(108,92,231,0.2) !important; }
 @st.cache_resource
 def get_connection():
     """Return a reusable psycopg2 connection."""
-    url = os.getenv("POSTGRES_URL", "")
+    # 1. Tenta pegar do cofre da nuvem (Streamlit Secrets)
+    # 2. Se não achar, tenta pegar do computador local (os.getenv)
+    if "POSTGRES_URL" in st.secrets:
+        url = st.secrets["POSTGRES_URL"]
+    else:
+        url = os.getenv("POSTGRES_URL", "")
+        
     if not url:
         return None
+        
     try:
         conn = psycopg2.connect(url)
         return conn
